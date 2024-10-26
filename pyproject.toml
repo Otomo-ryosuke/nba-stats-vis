@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "nba-stats-vis"
+version = "0.1.0"
+description = ""
+authors = ["otomoryosuke <xwtfw614@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+nba-api = "^1.6.0"
+pandas = "^2.2.3"
+matplotlib = "^3.9.2"
+pyyaml = "^6.0.2"
+google-cloud-storage = "^2.18.2"
+pathlib = "^1.0.1"
+logging = "^0.4.9.6"
+functions-framework = "^3.8.1"
+black = "^24.10.0"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
