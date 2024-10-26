@@ -1,0 +1,4 @@
+functions-framework==3.*
+google-cloud-storage==2.*
+nba_api==1.*
+pandas==2.*
